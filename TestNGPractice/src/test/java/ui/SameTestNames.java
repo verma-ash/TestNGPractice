@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class SameTestNames {
 
-	@Test(priority = 1, description="This is of priority 1")
+	@Test(priority = 1, description = "This is of priority 1")
 	public void Test1() {
 		System.out.println("This is Test1");
 	}
