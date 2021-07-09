@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ui.DataProviderDemo">
+      <class name="ui.FromXMLParameter">
         <methods>
-          <include name="testPrints"/>
+          <include name="testingParameter"/>
         </methods>
-      </class> <!-- ui.DataProviderDemo -->
+      </class> <!-- ui.FromXMLParameter -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
